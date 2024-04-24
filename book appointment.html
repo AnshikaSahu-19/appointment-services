@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Portal</title>
+    <link rel="stylesheet" href="css for project.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <header>
+            <div class=""style="font-size:48px;><a href="#">MEDAP</a></div>
+            <div class="menu"></div>
+            <div class="heading">
+              <ul>
+              <li><a href="minor by project.html" class="under">HOME</a></li>
+              <li><a href="services.html" class="under">SERVICES</a></li>
+              <li><a href="Appointment.html" class="under">APPOINTMENT</a></li>
+              <li><a href="contact.html" class="under">FEEDBACK</a></li>
+              <li><a href="About.html" class="under">ABOUT US</a></li>
+                </ul>
+            </div>
+        </header>
+     <section>
+             <title>Appointment Website</title>
+      <link rel="stylesheet" href="css for project.css">
+      <div class="container">
+      <h1>Book Your Appointment</h1>
+        </div>
+     </section>
+
+    <div class="container">
+        <form action="mailto:ansikasahu674@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Your Name*:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email*:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+            <label for="phone">Your Phone Number*:</label>
+                  <input type="text" id="phone" name="phone" required>
+                </div>
+            <div class="form-group">
+                <label for="date">Preferred Date*:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="Address">Address*:</label>
+                      <input type="text" id="condition" name="condition" required>
+                    </div>
+                    <div class="form-group">
+            <label for="time"style=font-size:18px;>Time Slot*:</label>
+            <select name="time" id="time">
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="1:00">1:00</option>
+              <option value="2:00">2:00</option>
+              <option value="3:00">3:00</option>
+              <option value="4:00">4:00</option>
+              <option value="5:00">5:00</option>
+            </select></div>
+                    <div>
+                    <label for="gender"style=font-size:18px;>Gender*:</label> 
+            <select id="gender" name="gender" required> 
+                <option value="male">Male</option> 
+                <option value="female">Female</option> 
+                <option value="other">Other</option> 
+            </select> 
+         </div>
+         <div>
+            <label for="dob"style=font-size:18px;>Date of Birth*:</label> 
+            <input type="date" 
+                   id="dob" name="dob" 
+                   placeholder="Enter your DOB" required>   
+                </div> 
+                <div>
+                      <div class="form-group">
+                        <label for="medical condition"style=font-size:18px;padding:10px;>Medical condition*</label>
+                              <input type="medical condition"value="" id="medical condition"placeholder="Medical Condition*" name="medical condition" required>
+                    </div>
+            </div>
+        </div>
+            <div class="form-group">
+                <input type="submit" value="book Appointment"style=background-color:#049fc2;border:none;color:rgb(0,0,0);padding:10px32px;text-decoration:none;margin:20px2px;cursor:pointer;font-size:medium;font-weight:bolder;>
+            </div>
+        </form>
+        
+        <div id="message"></div>
+    </div>
+
+    <style>
+
+        h1{
+ text-decoration: underline;
+ font-weight: bold;
+        }
+       input[type=medicalcondition] {
+        padding:20px;
+
+       }
+       input[type=Address] {
+        padding:20px;
+
+       }
+       
+        .form-group{
+            
+            font-family: Arial;
+            font-size:medium;
+            
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px;
+            
+        
+        }
+        form .form-group {
+    margin-bottom: 20px;
+  display: inline;
+ }
+ form label {
+    
+    margin-bottom: 5px;
+    font-size: medium;
+    
+ }
+ form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+ }
+ input[type=button]
+  {
+  background-color: #049fc2;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 20px 2px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bolder;
+ }
+ </style>
+
+    <section>
+    <script src="hospital script.js"></script>
+    <section id="contact" class="contact">
+<footer>
+    <a href="Appointment.html"style=background-color:#049fc2;border:none;color:rgb(0,0,0);padding:10px32px;text-decoration:none;margin:20px2px;cursor:pointer;font-size:medium;font-weight:bolder;;>BACK</a>
+        <h2>Contact Us</h2>
+        <p>Email: medapsite.24@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+    </footer>
+    </section>
+</body>
+</html>
